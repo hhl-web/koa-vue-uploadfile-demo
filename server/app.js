@@ -41,18 +41,9 @@ app.use(koaBody({
 app.use(uploadRouter.routes(),uploadRouter.allowedMethods());   /*启动路由*/
 app.use(mergeRouter.routes(),mergeRouter.allowedMethods());
 app.use(againRouter.routes(),againRouter.allowedMethods());
-// app.use(async (ctx)=>{
-//   if(ctx.request.path=='/api/handleMerge'){
-//     // ctx.response.message='bulala';
-//     console.log(ctx.request,ctx.request.body,1) 
-//     ctx.response.status=200;
-    
-//   }
-// })
-
 
 app.listen('3001',()=>{
   console.log('后台请求启动了');
 })
 
-module.exports=app;
+module.exports=app;S

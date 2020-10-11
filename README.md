@@ -1,29 +1,22 @@
 # koa-vue-demo
 
-## Project setup
+## Project setup 下载包
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开启前端服务
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 开启后端服务
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+npm start
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+有问题可提issue
+github地址(https://github.com/hhl-web/koa-vue-uploadfile-demo)
